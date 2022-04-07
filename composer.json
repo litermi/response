@@ -1,0 +1,38 @@
+{
+    "name": "cirelramos/response",
+    "description": "The Response is a package to response api-rest .",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "log",
+        "database"
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/database": "^7.20|^8.19|^9.0",
+        "illuminate/http": "^7.20|^8.19|^9.0",
+        "illuminate/contracts": "^7.20|^8.19|^9.0",
+        "illuminate/config": "^7.20|^8.19|^9.0",
+        "guzzlehttp/guzzle": "^6.3.1|^7.0.1",
+        "cirelramos/logs": "^1.0",
+        "cirelramos/error-notification": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cirelramos\\Response\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cirel Ramos",
+            "email": "cirelramos@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
