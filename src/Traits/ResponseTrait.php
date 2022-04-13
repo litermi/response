@@ -1,9 +1,9 @@
 <?php
 
-namespace Cirelramos\Response\Traits;
+namespace Litermi\Response\Traits;
 
-use Cirelramos\ErrorNotification\Services\GetInfoFromExceptionService;
-use Cirelramos\Logs\Services\SendLogUserRequestResponseService;
+use Litermi\ErrorNotification\Services\GetInfoFromExceptionService;
+use Litermi\Logs\Services\SendLogUserRequestResponseService;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;

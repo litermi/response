@@ -1,5 +1,5 @@
 {
-    "name": "cirelramos/response",
+    "name": "litermi/response",
     "description": "The Response is a package to response api-rest .",
     "type": "library",
     "license": "MIT",
@@ -15,12 +15,12 @@
         "illuminate/contracts": "^7.20|^8.19|^9.0",
         "illuminate/config": "^7.20|^8.19|^9.0",
         "guzzlehttp/guzzle": "^6.3.1|^7.0.1",
-        "cirelramos/logs": "^1.0",
-        "cirelramos/error-notification": "^1.0"
+        "litermi/logs": "^1.0",
+        "litermi/error-notification": "^1.0"
     },
     "autoload": {
         "psr-4": {
-            "Cirelramos\\Response\\": "src/"
+            "Litermi\\Response\\": "src/"
         }
     },
     "extra": {

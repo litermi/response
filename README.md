@@ -10,9 +10,9 @@ The `Response` is a package to response api-rest .
 
 ## Installation
 
-Require the `cirelramos/response` package in your `composer.json` and update your dependencies:
+Require the `litermi/response` package in your `composer.json` and update your dependencies:
 ```sh
-composer require cirelramos/response
+composer require litermi/response
 ```
 
 
@@ -23,14 +23,14 @@ set provider
 ```php
 'providers' => [
     // ...
-    Cirelramos\Response\Providers\ServiceProvider::class,
+    Litermi\Response\Providers\ServiceProvider::class,
 ],
 ```
 
 
 The defaults are set in `config/response.php`. Publish the config to copy the file to your own config:
 ```sh
-php artisan vendor:publish --provider="Cirelramos\Response\Providers\ServiceProvider"
+php artisan vendor:publish --provider="Litermi\Response\Providers\ServiceProvider"
 ```
 
 > **Note:** this is necessary to you can change default config
@@ -40,7 +40,7 @@ php artisan vendor:publish --provider="Cirelramos\Response\Providers\ServiceProv
 ## Usage
 
 ```php
-use Cirelramos\Response\Traits\ResponseTrait;
+use Litermi\Response\Traits\ResponseTrait;
 
 class Controller extends BaseController
 {

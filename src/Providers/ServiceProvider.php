@@ -1,6 +1,6 @@
 <?php
 
-namespace Cirelramos\Response\Providers;
+namespace Litermi\Response\Providers;
 
 /**
  *
