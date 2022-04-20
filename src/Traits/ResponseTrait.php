@@ -80,7 +80,12 @@ trait ResponseTrait
         $message = '',
         $code = Response::HTTP_SERVICE_UNAVAILABLE
     ): JsonResponse {
-        return response()->json([ 'code' => $code, 'message' => $message, 'data' => $data ], $code);
+        return response()->json(['code' => $code, 'message' => $message, 'data' => $data], $code);
 
+    }
+
+    protected function errorResponse($message, $code, $data = [])
+    {
+        $this->errorResponseWithMessage($data, $message, $code);
     }
 }
