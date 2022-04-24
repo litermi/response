@@ -86,6 +86,6 @@ trait ResponseTrait
 
     protected function errorResponse($message, $code, $data = [])
     {
-        $this->errorResponseWithMessage($data, $message, $code);
+      return  $this->errorResponseWithMessage($data, $message, $code);
     }
 }
