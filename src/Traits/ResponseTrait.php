@@ -75,7 +75,7 @@ trait ResponseTrait
 
     }
 
-    private function errorResponseWithMessage(
+    public function errorResponseWithMessage(
         $data = [],
         $message = '',
         $code = Response::HTTP_SERVICE_UNAVAILABLE
@@ -84,7 +84,7 @@ trait ResponseTrait
 
     }
 
-    protected function errorResponse($message, $code, $data = []) {
+    public function errorResponse($message, $code, $data = []) {
         $error = [];
         if (is_string($message)) {
             $error = ['message' => [$message]];
