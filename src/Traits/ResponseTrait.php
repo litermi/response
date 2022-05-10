@@ -2,11 +2,11 @@
 
 namespace Litermi\Response\Traits;
 
-use Litermi\ErrorNotification\Services\GetInfoFromExceptionService;
-use Litermi\Logs\Services\SendLogUserRequestResponseService;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
+use Litermi\ErrorNotification\Services\GetInfoFromExceptionService;
+use Litermi\Logs\Services\SendLogUserRequestResponseService;
 
 /**
  *
@@ -65,26 +65,55 @@ trait ResponseTrait
             $message = $exception->getMessage();
             $code    = Response::HTTP_NOT_FOUND;
         }
+
+        if ($code < Response::HTTP_CONTINUE || $code > Response::HTTP_NETWORK_AUTHENTICATION_REQUIRED) {
+            $code = Response::HTTP_SERVICE_UNAVAILABLE;
+        }
+
+        $error = $this->reformatError($message);
+
         $infoException = GetInfoFromExceptionService::execute($exception);
         SendLogUserRequestResponseService::execute($infoException);
         if (config('app.debug') === true) {
-            return $this->errorResponseWithMessage($infoException, $message, $code);
+            return $this->errorResponseWithMessage($infoException, $message, $code, $error);
         }
 
-        return $this->errorResponseWithMessage([], $message, $code);
+        return $this->errorResponseWithMessage([], $message, $code, $error);
 
     }
 
     public function errorResponseWithMessage(
         $data = [],
         $message = '',
-        $code = Response::HTTP_SERVICE_UNAVAILABLE
+        $code = Response::HTTP_SERVICE_UNAVAILABLE,
+        $error = []
     ): JsonResponse {
-        return response()->json(['code' => $code, 'message' => $message, 'data' => $data], $code);
-
+        return response()->json(
+            ['error' => $error, 'code' => $code, 'message' => $message, 'data' => $data],
+            $code
+        );
     }
 
+    /**
+     * @param $message
+     * @param $code
+     * @param $data
+     * @return mixed
+     */
     public function errorResponse($message, $code, $data = []) {
+        if ($code < Response::HTTP_CONTINUE || $code > Response::HTTP_NETWORK_AUTHENTICATION_REQUIRED) {
+            $code = Response::HTTP_SERVICE_UNAVAILABLE;
+        }
+        $error = $this->reformatError($message);
+        return response()->json(['error' => $error, 'code' => $code, 'message'=> $message, 'data' => $data], $code);
+    }
+
+    /**
+     * @param $message
+     * @return array|\string[][]
+     */
+    public function reformatError($message): array
+    {
         $error = [];
         if (is_string($message)) {
             $error = ['message' => [$message]];
@@ -92,12 +121,6 @@ trait ResponseTrait
         if(is_array($message)){
             $error = $message;
         }
-        if(count($data) > 0 ){
-            $error['extra_info'] = $data;
-        }
-        if ($code < Response::HTTP_CONTINUE || $code > Response::HTTP_NETWORK_AUTHENTICATION_REQUIRED) {
-            $code = Response::HTTP_SERVICE_UNAVAILABLE;
-        }
-        return response()->json(['error' => $error, 'code' => $code, 'message'=> $message, 'data' => $data], $code);
+        return $error;
     }
 }
