@@ -7,6 +7,7 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 use Litermi\ErrorNotification\Services\GetInfoFromExceptionService;
 use Litermi\Logs\Services\SendLogUserRequestResponseService;
+use Litermi\Response\Services\GetResponseClientExceptionService;
 
 /**
  *
@@ -70,10 +71,16 @@ trait ResponseTrait
             $code = Response::HTTP_SERVICE_UNAVAILABLE;
         }
 
-        $error = $this->reformatError($message);
-
         $infoException = GetInfoFromExceptionService::execute($exception);
         SendLogUserRequestResponseService::execute($infoException);
+
+        [$code, $message, $infoException] = GetResponseClientExceptionService::execute(
+            $code,
+            $message,
+            $infoException,
+            $exception
+        );
+        $error = $this->reformatError($message);
         if (config('app.debug') === true) {
             return $this->errorResponseWithMessage($infoException, $message, $code, $error);
         }
