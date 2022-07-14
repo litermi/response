@@ -14,14 +14,14 @@ class GetResponseClientExceptionService
 
     /**
      * @param $message
-     * @param Exception $exception
+     * @param $exception
      * @return array|null
      */
     public static function execute(
         $code,
         $message,
         $data,
-        Exception $exception
+        $exception
     ): ?array {
         if ($exception instanceof ClientException || $exception instanceof RequestException) {
             return self::getData($exception);
