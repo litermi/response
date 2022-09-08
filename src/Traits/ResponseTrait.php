@@ -81,7 +81,7 @@ trait ResponseTrait
             $exception
         );
         $error = $this->reformatError($message);
-        if (config('app.debug') === true) {
+        if (env('APP_DEBUG') === true) {
             return $this->errorResponseWithMessage($infoException, $message, $code, $error);
         }
 

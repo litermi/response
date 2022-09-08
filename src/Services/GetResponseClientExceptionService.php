@@ -54,7 +54,7 @@ class GetResponseClientExceptionService
             $data[ 'error_external' ] = $error;
 
             $data[ 'response_body' ] = $responseBody;
-            if (config('app.debug') === false) {
+            if (env('APP_DEBUG') === false) {
                 $data = [];
             }
             return [$code, $message, $data];
@@ -66,7 +66,7 @@ class GetResponseClientExceptionService
             $data[ 'file' ]          = $exception->getFile();
             $data[ 'line' ]          = $exception->getLine();
 
-            if (config('app.debug') === false) {
+            if (env('APP_DEBUG') === false) {
                 $data = [];
             }
 
