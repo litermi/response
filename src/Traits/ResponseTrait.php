@@ -83,7 +83,6 @@ trait ResponseTrait
         );
         $error = $this->reformatError($message);
         if (env('APP_DEBUG') === true) {
-            $infoException['tracker'] = GetTrackerService::execute();
             return $this->errorResponseWithMessage($infoException, $message, $code, $error);
         }
 
