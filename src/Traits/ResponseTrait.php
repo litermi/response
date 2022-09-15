@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 use Litermi\ErrorNotification\Services\GetInfoFromExceptionService;
+use Litermi\Logs\Services\GetTrackerService;
 use Litermi\Logs\Services\SendLogUserRequestResponseService;
 use Litermi\Response\Services\GetResponseClientExceptionService;
 
@@ -82,6 +83,7 @@ trait ResponseTrait
         );
         $error = $this->reformatError($message);
         if (env('APP_DEBUG') === true) {
+            $infoException['tracker'] = GetTrackerService::execute();
             return $this->errorResponseWithMessage($infoException, $message, $code, $error);
         }
 
