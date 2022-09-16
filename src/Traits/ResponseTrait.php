@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
 use Litermi\ErrorNotification\Services\GetInfoFromExceptionService;
+use Litermi\Logs\Facades\LogConsoleFacade;
 use Litermi\Logs\Services\GetTrackerService;
 use Litermi\Logs\Services\SendLogUserRequestResponseService;
 use Litermi\Response\Services\GetResponseClientExceptionService;
@@ -74,6 +75,8 @@ trait ResponseTrait
 
         $infoException = GetInfoFromExceptionService::execute($exception);
         SendLogUserRequestResponseService::execute($infoException);
+        LogConsoleFacade::full()->tracker()->log('catch-error: ' . $exception->getMessage(), $infoException);
+
 
         [$code, $message, $infoException] = GetResponseClientExceptionService::execute(
             $code,
