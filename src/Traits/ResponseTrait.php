@@ -5,6 +5,7 @@ namespace Litermi\Response\Traits;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Response;
+use Illuminate\Support\Collection;
 use Litermi\ErrorNotification\Services\GetInfoFromExceptionService;
 use Litermi\Logs\Facades\LogConsoleFacade;
 use Litermi\Logs\Services\GetTrackerService;
@@ -36,13 +37,23 @@ trait ResponseTrait
 
     private function encode_array($data)
     {
-        $data = is_array($data) ? $data : $data->toArray();
+        $data = $data instanceof Collection ? $data->toArray() : $data ;
         foreach ($data as $key => $value) {
             if (is_array($value) || is_object($value)) {
-                $data[ $key ] = $this->encode_array($value);
+                if(is_object($data)){
+                    $data->$key = $this->encodeArray($value);
+                }
+                if(is_array($data)){
+                    $data[ $key ] = $this->encodeArray($value);
+                }
             } elseif (is_string($value)) {
                 $value        = utf8_encode($value);
-                $data[ $key ] = html_entity_decode($value);
+                if(is_object($data)){
+                    $data->$key = html_entity_decode($value);
+                }
+                if(is_array($data)){
+                    $data[ $key ] = html_entity_decode($value);
+                }
             }
         }
 
