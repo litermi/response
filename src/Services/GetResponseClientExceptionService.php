@@ -50,7 +50,8 @@ class GetResponseClientExceptionService
             if (($host !== null) && (is_string($host) === true)) {
                 $error->host = $host;
             }
-            $message                  = property_exists($error, 'message') ? $error->message : '';
+            $message                 .= " ".$exception->getMessage();
+            $message                  = property_exists($error, 'message') ? $error->message : $message;
             $data[ 'error_external' ] = $error;
 
             $data[ 'response_body' ] = $responseBody;
@@ -62,9 +63,10 @@ class GetResponseClientExceptionService
             $code                    = $exception->getCode();
             $data[ 'message' ]       = __('error external service');
             $data[ 'code' ]          = $code;
-            $data[ 'error_explain' ] = $exception->getMessage();
+            $data[ 'error_explain' ] = " ".$exception->getMessage();
             $data[ 'file' ]          = $exception->getFile();
             $data[ 'line' ]          = $exception->getLine();
+            $message                 = __('error external service')." ".$exception->getMessage();
 
             if (env('APP_DEBUG') === false) {
                 $data = [];
