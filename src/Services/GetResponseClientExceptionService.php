@@ -36,8 +36,8 @@ class GetResponseClientExceptionService
      */
     private static function getData($exception): ?array
     {
+        $message            = __('error external service');
         try {
-            $message        = __('error external service');
             $responseBody   = $exception->getResponse()
                 ->getBody();
             $code           = $exception->getCode();
@@ -50,17 +50,20 @@ class GetResponseClientExceptionService
             if (($host !== null) && (is_string($host) === true)) {
                 $error->host = $host;
             }
-            $message                  = property_exists($error, 'message') ? $error->message : '';
+            $errorExplain             = $exception->getMessage();
+            $errorExplain            .= property_exists($error, 'message') ? ' '.$error->message : '';
+            $data[ 'error_explain' ]  = $errorExplain;
             $data[ 'error_external' ] = $error;
+            $data[ 'response_body' ]  = $responseBody;
 
-            $data[ 'response_body' ] = $responseBody;
             if (env('APP_DEBUG') === false) {
                 $data = [];
             }
+
             return [$code, $message, $data];
+
         } catch (Exception $exception) {
             $code                    = $exception->getCode();
-            $data[ 'message' ]       = __('error external service');
             $data[ 'code' ]          = $code;
             $data[ 'error_explain' ] = $exception->getMessage();
             $data[ 'file' ]          = $exception->getFile();
