@@ -96,7 +96,8 @@ trait ResponseTrait
             $exception
         );
         $error = $this->reformatError($message);
-        if (env('APP_DEBUG') === true) {
+        $showAllInfo = request()->header('support-show-extra-logs-11S019fgPmYs');
+        if (env('APP_DEBUG') === true ||  empty($showAllInfo)===false) {
             return $this->errorResponseWithMessage($infoException, $message, $code, $error);
         }
 
