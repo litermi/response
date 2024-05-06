@@ -10,10 +10,10 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "illuminate/database": "^7.20|^8.19|^9.0",
-        "illuminate/http": "^7.20|^8.19|^9.0",
-        "illuminate/contracts": "^7.20|^8.19|^9.0",
-        "illuminate/config": "^7.20|^8.19|^9.0",
+        "illuminate/database": "^7.20|^8.19|^9.0|^10.0",
+        "illuminate/http": "^7.20|^8.19|^9.0|^10.0",
+        "illuminate/contracts": "^7.20|^8.19|^9.0|^10.0",
+        "illuminate/config": "^7.20|^8.19|^9.0|^10.0",
         "guzzlehttp/guzzle": "^6.3.1|^7.0.1",
         "litermi/logs": "^1.0",
         "litermi/error-notification": "^1.0"
