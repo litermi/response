@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f7c3476025551b9d0069817c7550260",
+    "content-hash": "3958e719228f56507c00aace6ac20e84",
     "packages": [
         {
             "name": "brick/math",
@@ -68,29 +68,30 @@
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
-            "version": "2.1.0",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CarbonPHP/carbon-doctrine-types.git",
-                "reference": "99f76ffa36cce3b70a4a6abce41dba15ca2e84cb"
+                "reference": "9098d1cc5ac1baf3c9733dc48f3388fbd35e7c9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CarbonPHP/carbon-doctrine-types/zipball/99f76ffa36cce3b70a4a6abce41dba15ca2e84cb",
-                "reference": "99f76ffa36cce3b70a4a6abce41dba15ca2e84cb",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon-doctrine-types/zipball/9098d1cc5ac1baf3c9733dc48f3388fbd35e7c9e",
+                "reference": "9098d1cc5ac1baf3c9733dc48f3388fbd35e7c9e",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.4 || ^8.0"
+                "php": "^8.1"
             },
             "conflict": {
-                "doctrine/dbal": "<3.7.0 || >=4.0.0"
+                "doctrine/dbal": "<4.0.0 || >=5.0.0"
             },
             "require-dev": {
-                "doctrine/dbal": "^3.7.0",
+                "doctrine/dbal": "^4.0.0",
                 "nesbot/carbon": "^2.71.0 || ^3.0.0",
                 "phpunit/phpunit": "^10.3"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -117,7 +118,7 @@
             ],
             "support": {
                 "issues": "https://github.com/CarbonPHP/carbon-doctrine-types/issues",
-                "source": "https://github.com/CarbonPHP/carbon-doctrine-types/tree/2.1.0"
+                "source": "https://github.com/CarbonPHP/carbon-doctrine-types/tree/main"
             },
             "funding": [
                 {
@@ -133,7 +134,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-12-11T17:09:12+00:00"
+            "time": "2024-04-07T15:25:35+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -934,26 +935,26 @@
         },
         {
             "name": "illuminate/broadcasting",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/broadcasting.git",
-                "reference": "f02fcd672bf42662bcb8517ee52b929f1c07f35f"
+                "reference": "25bb8ac1e2f04b224392a1b5cf0cf29e0d141ee1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/broadcasting/zipball/f02fcd672bf42662bcb8517ee52b929f1c07f35f",
-                "reference": "f02fcd672bf42662bcb8517ee52b929f1c07f35f",
+                "url": "https://api.github.com/repos/illuminate/broadcasting/zipball/25bb8ac1e2f04b224392a1b5cf0cf29e0d141ee1",
+                "reference": "25bb8ac1e2f04b224392a1b5cf0cf29e0d141ee1",
                 "shasum": ""
             },
             "require": {
-                "illuminate/bus": "^10.0",
-                "illuminate/collections": "^10.0",
-                "illuminate/container": "^10.0",
-                "illuminate/contracts": "^10.0",
-                "illuminate/queue": "^10.0",
-                "illuminate/support": "^10.0",
-                "php": "^8.1",
+                "illuminate/bus": "^11.0",
+                "illuminate/collections": "^11.0",
+                "illuminate/container": "^11.0",
+                "illuminate/contracts": "^11.0",
+                "illuminate/queue": "^11.0",
+                "illuminate/support": "^11.0",
+                "php": "^8.2",
                 "psr/log": "^1.0|^2.0|^3.0"
             },
             "suggest": {
@@ -964,7 +965,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -988,28 +989,28 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-03-05T14:54:33+00:00"
+            "time": "2024-04-18T00:30:39+00:00"
         },
         {
             "name": "illuminate/bus",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
-                "reference": "33993b8f54e91b03fb5000e55693e146e7370763"
+                "reference": "4a09ead20ca08a24848b2f13c413fd18b31554a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/bus/zipball/33993b8f54e91b03fb5000e55693e146e7370763",
-                "reference": "33993b8f54e91b03fb5000e55693e146e7370763",
+                "url": "https://api.github.com/repos/illuminate/bus/zipball/4a09ead20ca08a24848b2f13c413fd18b31554a0",
+                "reference": "4a09ead20ca08a24848b2f13c413fd18b31554a0",
                 "shasum": ""
             },
             "require": {
-                "illuminate/collections": "^10.0",
-                "illuminate/contracts": "^10.0",
-                "illuminate/pipeline": "^10.0",
-                "illuminate/support": "^10.0",
-                "php": "^8.1"
+                "illuminate/collections": "^11.0",
+                "illuminate/contracts": "^11.0",
+                "illuminate/pipeline": "^11.0",
+                "illuminate/support": "^11.0",
+                "php": "^8.2"
             },
             "suggest": {
                 "illuminate/queue": "Required to use closures when chaining jobs (^7.0)."
@@ -1017,7 +1018,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -1041,35 +1042,35 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-02-23T15:38:25+00:00"
+            "time": "2024-04-07T17:36:46+00:00"
         },
         {
             "name": "illuminate/collections",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
-                "reference": "f9589f1063a449111dcaa1d68285b507d9483a95"
+                "reference": "48f73091423f46d9700a8cec482a11214f0ea193"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/f9589f1063a449111dcaa1d68285b507d9483a95",
-                "reference": "f9589f1063a449111dcaa1d68285b507d9483a95",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/48f73091423f46d9700a8cec482a11214f0ea193",
+                "reference": "48f73091423f46d9700a8cec482a11214f0ea193",
                 "shasum": ""
             },
             "require": {
-                "illuminate/conditionable": "^10.0",
-                "illuminate/contracts": "^10.0",
-                "illuminate/macroable": "^10.0",
-                "php": "^8.1"
+                "illuminate/conditionable": "^11.0",
+                "illuminate/contracts": "^11.0",
+                "illuminate/macroable": "^11.0",
+                "php": "^8.2"
             },
             "suggest": {
-                "symfony/var-dumper": "Required to use the dump method (^6.2)."
+                "symfony/var-dumper": "Required to use the dump method (^7.0)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -1096,20 +1097,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-03-20T20:09:13+00:00"
+            "time": "2024-05-08T17:29:29+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
-                "reference": "d0958e4741fc9d6f516a552060fd1b829a85e009"
+                "reference": "8a558fec063b6a63da1c3af1d219c0f998edffeb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/conditionable/zipball/d0958e4741fc9d6f516a552060fd1b829a85e009",
-                "reference": "d0958e4741fc9d6f516a552060fd1b829a85e009",
+                "url": "https://api.github.com/repos/illuminate/conditionable/zipball/8a558fec063b6a63da1c3af1d219c0f998edffeb",
+                "reference": "8a558fec063b6a63da1c3af1d219c0f998edffeb",
                 "shasum": ""
             },
             "require": {
@@ -1118,7 +1119,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -1142,31 +1143,31 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-02-03T08:06:17+00:00"
+            "time": "2024-04-04T17:36:49+00:00"
         },
         {
             "name": "illuminate/config",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
-                "reference": "d5e83ceff5c4d5607b1b81763eb4c436911c35da"
+                "reference": "0dea1af0006a46bd7effaa7964c47cf76214d1d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/config/zipball/d5e83ceff5c4d5607b1b81763eb4c436911c35da",
-                "reference": "d5e83ceff5c4d5607b1b81763eb4c436911c35da",
+                "url": "https://api.github.com/repos/illuminate/config/zipball/0dea1af0006a46bd7effaa7964c47cf76214d1d9",
+                "reference": "0dea1af0006a46bd7effaa7964c47cf76214d1d9",
                 "shasum": ""
             },
             "require": {
-                "illuminate/collections": "^10.0",
-                "illuminate/contracts": "^10.0",
-                "php": "^8.1"
+                "illuminate/collections": "^11.0",
+                "illuminate/contracts": "^11.0",
+                "php": "^8.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -1190,48 +1191,49 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-08-21T15:47:27+00:00"
+            "time": "2024-02-28T16:28:16+00:00"
         },
         {
             "name": "illuminate/console",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
-                "reference": "d001036218ea5fbb382ee5c845292b067ea8b46f"
+                "reference": "00c8105175486335acb28b62017dce28110de8d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/console/zipball/d001036218ea5fbb382ee5c845292b067ea8b46f",
-                "reference": "d001036218ea5fbb382ee5c845292b067ea8b46f",
+                "url": "https://api.github.com/repos/illuminate/console/zipball/00c8105175486335acb28b62017dce28110de8d6",
+                "reference": "00c8105175486335acb28b62017dce28110de8d6",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "illuminate/collections": "^10.0",
-                "illuminate/contracts": "^10.0",
-                "illuminate/macroable": "^10.0",
-                "illuminate/support": "^10.0",
-                "illuminate/view": "^10.0",
-                "laravel/prompts": "^0.1.9",
-                "nunomaduro/termwind": "^1.13",
-                "php": "^8.1",
-                "symfony/console": "^6.2",
-                "symfony/process": "^6.2"
+                "illuminate/collections": "^11.0",
+                "illuminate/contracts": "^11.0",
+                "illuminate/macroable": "^11.0",
+                "illuminate/support": "^11.0",
+                "illuminate/view": "^11.0",
+                "laravel/prompts": "^0.1.12",
+                "nunomaduro/termwind": "^2.0",
+                "php": "^8.2",
+                "symfony/console": "^7.0",
+                "symfony/polyfill-php83": "^1.28",
+                "symfony/process": "^7.0"
             },
             "suggest": {
                 "dragonmantank/cron-expression": "Required to use scheduler (^3.3.2).",
                 "ext-pcntl": "Required to use signal trapping.",
-                "guzzlehttp/guzzle": "Required to use the ping methods on schedules (^7.5).",
-                "illuminate/bus": "Required to use the scheduled job dispatcher (^10.0).",
-                "illuminate/container": "Required to use the scheduler (^10.0).",
-                "illuminate/filesystem": "Required to use the generator command (^10.0).",
-                "illuminate/queue": "Required to use closures for scheduled jobs (^10.0)."
+                "guzzlehttp/guzzle": "Required to use the ping methods on schedules (^7.8).",
+                "illuminate/bus": "Required to use the scheduled job dispatcher (^11.0).",
+                "illuminate/container": "Required to use the scheduler (^11.0).",
+                "illuminate/filesystem": "Required to use the generator command (^11.0).",
+                "illuminate/queue": "Required to use closures for scheduled jobs (^11.0)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -1255,25 +1257,25 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-03-21T13:10:17+00:00"
+            "time": "2024-04-19T15:25:02+00:00"
         },
         {
             "name": "illuminate/container",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
-                "reference": "ddc26273085fad3c471b2602ad820e0097ff7939"
+                "reference": "af979ecfd6dfa6583eae5dfe2e9a8840358f4ca7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/container/zipball/ddc26273085fad3c471b2602ad820e0097ff7939",
-                "reference": "ddc26273085fad3c471b2602ad820e0097ff7939",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/af979ecfd6dfa6583eae5dfe2e9a8840358f4ca7",
+                "reference": "af979ecfd6dfa6583eae5dfe2e9a8840358f4ca7",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "^10.0",
-                "php": "^8.1",
+                "illuminate/contracts": "^11.0",
+                "php": "^8.2",
                 "psr/container": "^1.1.1|^2.0.1"
             },
             "provide": {
@@ -1282,7 +1284,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -1306,31 +1308,31 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-06-18T09:12:03+00:00"
+            "time": "2024-04-04T17:36:49+00:00"
         },
         {
             "name": "illuminate/contracts",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "8d7152c4a1f5d9cf7da3e8b71f23e4556f6138ac"
+                "reference": "8782f75e80ab3e6036842d24dbeead34a16f3a79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/8d7152c4a1f5d9cf7da3e8b71f23e4556f6138ac",
-                "reference": "8d7152c4a1f5d9cf7da3e8b71f23e4556f6138ac",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/8782f75e80ab3e6036842d24dbeead34a16f3a79",
+                "reference": "8782f75e80ab3e6036842d24dbeead34a16f3a79",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.1",
+                "php": "^8.2",
                 "psr/container": "^1.1.1|^2.0.1",
                 "psr/simple-cache": "^1.0|^2.0|^3.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -1354,50 +1356,45 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-01-15T18:52:32+00:00"
+            "time": "2024-04-17T14:09:55+00:00"
         },
         {
             "name": "illuminate/database",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "eb8edf206d3a6eea8894bc6e21f53469e27dd5c9"
+                "reference": "83b571bace5aef9d1064b8ba02cc7762da029009"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/eb8edf206d3a6eea8894bc6e21f53469e27dd5c9",
-                "reference": "eb8edf206d3a6eea8894bc6e21f53469e27dd5c9",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/83b571bace5aef9d1064b8ba02cc7762da029009",
+                "reference": "83b571bace5aef9d1064b8ba02cc7762da029009",
                 "shasum": ""
             },
             "require": {
                 "brick/math": "^0.9.3|^0.10.2|^0.11|^0.12",
                 "ext-pdo": "*",
-                "illuminate/collections": "^10.0",
-                "illuminate/container": "^10.0",
-                "illuminate/contracts": "^10.0",
-                "illuminate/macroable": "^10.0",
-                "illuminate/support": "^10.0",
-                "php": "^8.1"
-            },
-            "conflict": {
-                "carbonphp/carbon-doctrine-types": ">=3.0",
-                "doctrine/dbal": ">=4.0"
+                "illuminate/collections": "^11.0",
+                "illuminate/container": "^11.0",
+                "illuminate/contracts": "^11.0",
+                "illuminate/macroable": "^11.0",
+                "illuminate/support": "^11.0",
+                "php": "^8.2"
             },
             "suggest": {
-                "doctrine/dbal": "Required to rename columns and drop SQLite columns (^3.5.1).",
                 "ext-filter": "Required to use the Postgres database driver.",
                 "fakerphp/faker": "Required to use the eloquent factory builder (^1.21).",
-                "illuminate/console": "Required to use the database commands (^10.0).",
-                "illuminate/events": "Required to use the observers with Eloquent (^10.0).",
-                "illuminate/filesystem": "Required to use the migrations (^10.0).",
-                "illuminate/pagination": "Required to paginate the result set (^10.0).",
-                "symfony/finder": "Required to use Eloquent model factories (^6.2)."
+                "illuminate/console": "Required to use the database commands (^11.0).",
+                "illuminate/events": "Required to use the observers with Eloquent (^11.0).",
+                "illuminate/filesystem": "Required to use the migrations (^11.0).",
+                "illuminate/pagination": "Required to paginate the result set (^11.0).",
+                "symfony/finder": "Required to use Eloquent model factories (^7.0)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -1427,35 +1424,35 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-04-29T13:23:17+00:00"
+            "time": "2024-05-08T18:09:22+00:00"
         },
         {
             "name": "illuminate/events",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
-                "reference": "a931bfa88edc6ac52c9abbfd7b769343d321d3eb"
+                "reference": "18cf9c17f4656778355e5e49bb193b3cf585a668"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/events/zipball/a931bfa88edc6ac52c9abbfd7b769343d321d3eb",
-                "reference": "a931bfa88edc6ac52c9abbfd7b769343d321d3eb",
+                "url": "https://api.github.com/repos/illuminate/events/zipball/18cf9c17f4656778355e5e49bb193b3cf585a668",
+                "reference": "18cf9c17f4656778355e5e49bb193b3cf585a668",
                 "shasum": ""
             },
             "require": {
-                "illuminate/bus": "^10.0",
-                "illuminate/collections": "^10.0",
-                "illuminate/container": "^10.0",
-                "illuminate/contracts": "^10.0",
-                "illuminate/macroable": "^10.0",
-                "illuminate/support": "^10.0",
-                "php": "^8.1"
+                "illuminate/bus": "^11.0",
+                "illuminate/collections": "^11.0",
+                "illuminate/container": "^11.0",
+                "illuminate/contracts": "^11.0",
+                "illuminate/macroable": "^11.0",
+                "illuminate/support": "^11.0",
+                "php": "^8.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -1482,29 +1479,29 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-03-04T14:41:04+00:00"
+            "time": "2024-04-04T17:36:49+00:00"
         },
         {
             "name": "illuminate/filesystem",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
-                "reference": "592fb581a52fba43bf78c2e4b22db540c9f9f149"
+                "reference": "56d387455019a0b3c19b76dc7ccb70e337ee7c4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/592fb581a52fba43bf78c2e4b22db540c9f9f149",
-                "reference": "592fb581a52fba43bf78c2e4b22db540c9f9f149",
+                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/56d387455019a0b3c19b76dc7ccb70e337ee7c4b",
+                "reference": "56d387455019a0b3c19b76dc7ccb70e337ee7c4b",
                 "shasum": ""
             },
             "require": {
-                "illuminate/collections": "^10.0",
-                "illuminate/contracts": "^10.0",
-                "illuminate/macroable": "^10.0",
-                "illuminate/support": "^10.0",
-                "php": "^8.1",
-                "symfony/finder": "^6.2"
+                "illuminate/collections": "^11.0",
+                "illuminate/contracts": "^11.0",
+                "illuminate/macroable": "^11.0",
+                "illuminate/support": "^11.0",
+                "php": "^8.2",
+                "symfony/finder": "^7.0"
             },
             "suggest": {
                 "ext-fileinfo": "Required to use the Filesystem class.",
@@ -1516,13 +1513,13 @@
                 "league/flysystem-ftp": "Required to use the Flysystem FTP driver (^3.0).",
                 "league/flysystem-sftp-v3": "Required to use the Flysystem SFTP driver (^3.0).",
                 "psr/http-message": "Required to allow Storage::put to accept a StreamInterface (^1.0).",
-                "symfony/filesystem": "Required to enable support for relative symbolic links (^6.2).",
-                "symfony/mime": "Required to enable support for guessing extensions (^6.2)."
+                "symfony/filesystem": "Required to enable support for relative symbolic links (^7.0).",
+                "symfony/mime": "Required to enable support for guessing extensions (^7.0)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -1549,43 +1546,44 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-03-11T21:45:53+00:00"
+            "time": "2024-03-29T08:58:54+00:00"
         },
         {
             "name": "illuminate/http",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
-                "reference": "0dd2ee794017c7f5e811cf8fb0dc74c646918d30"
+                "reference": "1368cf3ebd0e7cbb5ca2a325543a20b05e8b5d11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/http/zipball/0dd2ee794017c7f5e811cf8fb0dc74c646918d30",
-                "reference": "0dd2ee794017c7f5e811cf8fb0dc74c646918d30",
+                "url": "https://api.github.com/repos/illuminate/http/zipball/1368cf3ebd0e7cbb5ca2a325543a20b05e8b5d11",
+                "reference": "1368cf3ebd0e7cbb5ca2a325543a20b05e8b5d11",
                 "shasum": ""
             },
             "require": {
                 "ext-filter": "*",
-                "fruitcake/php-cors": "^1.2",
+                "fruitcake/php-cors": "^1.3",
+                "guzzlehttp/guzzle": "^7.8",
                 "guzzlehttp/uri-template": "^1.0",
-                "illuminate/collections": "^10.0",
-                "illuminate/macroable": "^10.0",
-                "illuminate/session": "^10.0",
-                "illuminate/support": "^10.0",
-                "php": "^8.1",
-                "symfony/http-foundation": "^6.4",
-                "symfony/http-kernel": "^6.2",
-                "symfony/mime": "^6.2"
+                "illuminate/collections": "^11.0",
+                "illuminate/macroable": "^11.0",
+                "illuminate/session": "^11.0",
+                "illuminate/support": "^11.0",
+                "php": "^8.2",
+                "symfony/http-foundation": "^7.0",
+                "symfony/http-kernel": "^7.0",
+                "symfony/mime": "^7.0",
+                "symfony/polyfill-php83": "^1.28"
             },
             "suggest": {
-                "ext-gd": "Required to use Illuminate\\Http\\Testing\\FileFactory::image().",
-                "guzzlehttp/guzzle": "Required to use the HTTP Client (^7.5)."
+                "ext-gd": "Required to use Illuminate\\Http\\Testing\\FileFactory::image()."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -1609,29 +1607,29 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-02-21T15:19:17+00:00"
+            "time": "2024-05-08T17:18:40+00:00"
         },
         {
             "name": "illuminate/macroable",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
-                "reference": "dff667a46ac37b634dcf68909d9d41e94dc97c27"
+                "reference": "e1be58f9b2af73f242dc6a9add1f376b3ec89eef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/macroable/zipball/dff667a46ac37b634dcf68909d9d41e94dc97c27",
-                "reference": "dff667a46ac37b634dcf68909d9d41e94dc97c27",
+                "url": "https://api.github.com/repos/illuminate/macroable/zipball/e1be58f9b2af73f242dc6a9add1f376b3ec89eef",
+                "reference": "e1be58f9b2af73f242dc6a9add1f376b3ec89eef",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.1"
+                "php": "^8.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -1655,44 +1653,45 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-06-05T12:46:42+00:00"
+            "time": "2023-06-08T14:08:27+00:00"
         },
         {
             "name": "illuminate/mail",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/mail.git",
-                "reference": "7d69143506fea14f72883f86208ae08ba4bcb97c"
+                "reference": "414d6a673220f7263a6846fede35e5ac6eb3cf63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/mail/zipball/7d69143506fea14f72883f86208ae08ba4bcb97c",
-                "reference": "7d69143506fea14f72883f86208ae08ba4bcb97c",
+                "url": "https://api.github.com/repos/illuminate/mail/zipball/414d6a673220f7263a6846fede35e5ac6eb3cf63",
+                "reference": "414d6a673220f7263a6846fede35e5ac6eb3cf63",
                 "shasum": ""
             },
             "require": {
-                "illuminate/collections": "^10.0",
-                "illuminate/container": "^10.0",
-                "illuminate/contracts": "^10.0",
-                "illuminate/macroable": "^10.0",
-                "illuminate/support": "^10.0",
+                "illuminate/collections": "^11.0",
+                "illuminate/container": "^11.0",
+                "illuminate/contracts": "^11.0",
+                "illuminate/macroable": "^11.0",
+                "illuminate/support": "^11.0",
                 "league/commonmark": "^2.2",
-                "php": "^8.1",
+                "php": "^8.2",
                 "psr/log": "^1.0|^2.0|^3.0",
-                "symfony/mailer": "^6.2",
+                "symfony/mailer": "^7.0",
                 "tijsverkoyen/css-to-inline-styles": "^2.2.5"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Required to use the SES mail driver (^3.235.5).",
-                "symfony/http-client": "Required to use the Symfony API mail transports (^6.2).",
-                "symfony/mailgun-mailer": "Required to enable support for the Mailgun mail transport (^6.2).",
-                "symfony/postmark-mailer": "Required to enable support for the Postmark mail transport (^6.2)."
+                "resend/resend-php": "Required to enable support for the Resend mail transport (^0.10.0).",
+                "symfony/http-client": "Required to use the Symfony API mail transports (^7.0).",
+                "symfony/mailgun-mailer": "Required to enable support for the Mailgun mail transport (^7.0).",
+                "symfony/postmark-mailer": "Required to enable support for the Postmark mail transport (^7.0)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -1716,41 +1715,41 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-03-11T12:56:26+00:00"
+            "time": "2024-05-08T18:09:22+00:00"
         },
         {
             "name": "illuminate/notifications",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/notifications.git",
-                "reference": "57f7e4b5b858df960216453bcfcf935cb434e4f0"
+                "reference": "75beb25d37ee245eadabe090d4e867eb9cb26c4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/notifications/zipball/57f7e4b5b858df960216453bcfcf935cb434e4f0",
-                "reference": "57f7e4b5b858df960216453bcfcf935cb434e4f0",
+                "url": "https://api.github.com/repos/illuminate/notifications/zipball/75beb25d37ee245eadabe090d4e867eb9cb26c4c",
+                "reference": "75beb25d37ee245eadabe090d4e867eb9cb26c4c",
                 "shasum": ""
             },
             "require": {
-                "illuminate/broadcasting": "^10.0",
-                "illuminate/bus": "^10.0",
-                "illuminate/collections": "^10.0",
-                "illuminate/container": "^10.0",
-                "illuminate/contracts": "^10.0",
-                "illuminate/filesystem": "^10.0",
-                "illuminate/mail": "^10.0",
-                "illuminate/queue": "^10.0",
-                "illuminate/support": "^10.0",
-                "php": "^8.1"
+                "illuminate/broadcasting": "^11.0",
+                "illuminate/bus": "^11.0",
+                "illuminate/collections": "^11.0",
+                "illuminate/container": "^11.0",
+                "illuminate/contracts": "^11.0",
+                "illuminate/filesystem": "^11.0",
+                "illuminate/mail": "^11.0",
+                "illuminate/queue": "^11.0",
+                "illuminate/support": "^11.0",
+                "php": "^8.2"
             },
             "suggest": {
-                "illuminate/database": "Required to use the database transport (^10.0)."
+                "illuminate/database": "Required to use the database transport (^11.0)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -1774,31 +1773,31 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-12-18T15:56:07+00:00"
+            "time": "2024-04-19T15:13:16+00:00"
         },
         {
             "name": "illuminate/pipeline",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
-                "reference": "f802187e917a171332cc90f8c1a102939c57405d"
+                "reference": "f9fc10f5af04035339f4e8ecbc6bcfaa1e7d74a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/pipeline/zipball/f802187e917a171332cc90f8c1a102939c57405d",
-                "reference": "f802187e917a171332cc90f8c1a102939c57405d",
+                "url": "https://api.github.com/repos/illuminate/pipeline/zipball/f9fc10f5af04035339f4e8ecbc6bcfaa1e7d74a6",
+                "reference": "f9fc10f5af04035339f4e8ecbc6bcfaa1e7d74a6",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "^10.0",
-                "illuminate/support": "^10.0",
-                "php": "^8.1"
+                "illuminate/contracts": "^11.0",
+                "illuminate/support": "^11.0",
+                "php": "^8.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -1822,35 +1821,35 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-12-19T14:47:26+00:00"
+            "time": "2024-04-04T17:36:49+00:00"
         },
         {
             "name": "illuminate/queue",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/queue.git",
-                "reference": "ee2446c88027cbe2a4d9f286ef66589fdf9f61ed"
+                "reference": "293bd0d298bca2c9690ed2bf86f406101dcfae5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/queue/zipball/ee2446c88027cbe2a4d9f286ef66589fdf9f61ed",
-                "reference": "ee2446c88027cbe2a4d9f286ef66589fdf9f61ed",
+                "url": "https://api.github.com/repos/illuminate/queue/zipball/293bd0d298bca2c9690ed2bf86f406101dcfae5e",
+                "reference": "293bd0d298bca2c9690ed2bf86f406101dcfae5e",
                 "shasum": ""
             },
             "require": {
-                "illuminate/collections": "^10.0",
-                "illuminate/console": "^10.0",
-                "illuminate/container": "^10.0",
-                "illuminate/contracts": "^10.0",
-                "illuminate/database": "^10.0",
-                "illuminate/filesystem": "^10.0",
-                "illuminate/pipeline": "^10.0",
-                "illuminate/support": "^10.0",
+                "illuminate/collections": "^11.0",
+                "illuminate/console": "^11.0",
+                "illuminate/container": "^11.0",
+                "illuminate/contracts": "^11.0",
+                "illuminate/database": "^11.0",
+                "illuminate/filesystem": "^11.0",
+                "illuminate/pipeline": "^11.0",
+                "illuminate/support": "^11.0",
                 "laravel/serializable-closure": "^1.2.2",
-                "php": "^8.1",
+                "php": "^8.2",
                 "ramsey/uuid": "^4.7",
-                "symfony/process": "^6.2"
+                "symfony/process": "^7.0"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Required to use the SQS queue driver and DynamoDb failed job storage (^3.235.5).",
@@ -1859,13 +1858,13 @@
                 "ext-pcntl": "Required to use all features of the queue worker.",
                 "ext-pdo": "Required to use the database queue worker.",
                 "ext-posix": "Required to use all features of the queue worker.",
-                "illuminate/redis": "Required to use the Redis queue driver (^10.0).",
-                "pda/pheanstalk": "Required to use the Beanstalk queue driver (^4.0)."
+                "illuminate/redis": "Required to use the Redis queue driver (^11.0).",
+                "pda/pheanstalk": "Required to use the Beanstalk queue driver (^5.0)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -1889,40 +1888,40 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-03-11T21:46:09+00:00"
+            "time": "2024-05-06T17:13:43+00:00"
         },
         {
             "name": "illuminate/session",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
-                "reference": "a095707b83327e27ba292c9c4d2413888b1f517c"
+                "reference": "d9460cefa3736ea98a72bbea0ae02d4ac1e7d8fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/session/zipball/a095707b83327e27ba292c9c4d2413888b1f517c",
-                "reference": "a095707b83327e27ba292c9c4d2413888b1f517c",
+                "url": "https://api.github.com/repos/illuminate/session/zipball/d9460cefa3736ea98a72bbea0ae02d4ac1e7d8fd",
+                "reference": "d9460cefa3736ea98a72bbea0ae02d4ac1e7d8fd",
                 "shasum": ""
             },
             "require": {
                 "ext-ctype": "*",
                 "ext-session": "*",
-                "illuminate/collections": "^10.0",
-                "illuminate/contracts": "^10.0",
-                "illuminate/filesystem": "^10.0",
-                "illuminate/support": "^10.0",
-                "php": "^8.1",
-                "symfony/finder": "^6.2",
-                "symfony/http-foundation": "^6.4"
+                "illuminate/collections": "^11.0",
+                "illuminate/contracts": "^11.0",
+                "illuminate/filesystem": "^11.0",
+                "illuminate/support": "^11.0",
+                "php": "^8.2",
+                "symfony/finder": "^7.0",
+                "symfony/http-foundation": "^7.0"
             },
             "suggest": {
-                "illuminate/console": "Required to use the session:table command (^10.0)."
+                "illuminate/console": "Required to use the session:table command (^11.0)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -1946,20 +1945,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-12-29T21:53:12+00:00"
+            "time": "2024-04-04T17:36:49+00:00"
         },
         {
             "name": "illuminate/support",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "ee3a1aaed36d916654ce0ae09dfbd38644a4f582"
+                "reference": "7d733a1dbeb96557ba287e778bbf7bc61e23c31d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/ee3a1aaed36d916654ce0ae09dfbd38644a4f582",
-                "reference": "ee3a1aaed36d916654ce0ae09dfbd38644a4f582",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/7d733a1dbeb96557ba287e778bbf7bc61e23c31d",
+                "reference": "7d733a1dbeb96557ba287e778bbf7bc61e23c31d",
                 "shasum": ""
             },
             "require": {
@@ -1967,30 +1966,33 @@
                 "ext-ctype": "*",
                 "ext-filter": "*",
                 "ext-mbstring": "*",
-                "illuminate/collections": "^10.0",
-                "illuminate/conditionable": "^10.0",
-                "illuminate/contracts": "^10.0",
-                "illuminate/macroable": "^10.0",
-                "nesbot/carbon": "^2.67",
-                "php": "^8.1",
+                "illuminate/collections": "^11.0",
+                "illuminate/conditionable": "^11.0",
+                "illuminate/contracts": "^11.0",
+                "illuminate/macroable": "^11.0",
+                "nesbot/carbon": "^2.72.2|^3.0",
+                "php": "^8.2",
                 "voku/portable-ascii": "^2.0"
             },
             "conflict": {
                 "tightenco/collect": "<5.5.33"
             },
+            "replace": {
+                "spatie/once": "*"
+            },
             "suggest": {
-                "illuminate/filesystem": "Required to use the composer class (^10.0).",
+                "illuminate/filesystem": "Required to use the composer class (^11.0).",
                 "league/commonmark": "Required to use Str::markdown() and Stringable::markdown() (^2.0.2).",
                 "ramsey/uuid": "Required to use Str::uuid() (^4.7).",
-                "symfony/process": "Required to use the composer class (^6.2).",
-                "symfony/uid": "Required to use Str::ulid() (^6.2).",
-                "symfony/var-dumper": "Required to use the dd function (^6.2).",
+                "symfony/process": "Required to use the composer class (^7.0).",
+                "symfony/uid": "Required to use Str::ulid() (^7.0).",
+                "symfony/var-dumper": "Required to use the dd function (^7.0).",
                 "vlucas/phpdotenv": "Required to use the Env class and env helper (^5.4.1)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -2017,37 +2019,37 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-04-07T17:47:33+00:00"
+            "time": "2024-05-06T18:30:15+00:00"
         },
         {
             "name": "illuminate/view",
-            "version": "10.x-dev",
+            "version": "11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
-                "reference": "504d55e0f2d90c75588627e6a77a4d1228cf1a02"
+                "reference": "a3768117b6d7c890bfde1be0f74ebf91db34a872"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/view/zipball/504d55e0f2d90c75588627e6a77a4d1228cf1a02",
-                "reference": "504d55e0f2d90c75588627e6a77a4d1228cf1a02",
+                "url": "https://api.github.com/repos/illuminate/view/zipball/a3768117b6d7c890bfde1be0f74ebf91db34a872",
+                "reference": "a3768117b6d7c890bfde1be0f74ebf91db34a872",
                 "shasum": ""
             },
             "require": {
                 "ext-tokenizer": "*",
-                "illuminate/collections": "^10.0",
-                "illuminate/container": "^10.0",
-                "illuminate/contracts": "^10.0",
-                "illuminate/events": "^10.0",
-                "illuminate/filesystem": "^10.0",
-                "illuminate/macroable": "^10.0",
-                "illuminate/support": "^10.0",
-                "php": "^8.1"
+                "illuminate/collections": "^11.0",
+                "illuminate/container": "^11.0",
+                "illuminate/contracts": "^11.0",
+                "illuminate/events": "^11.0",
+                "illuminate/filesystem": "^11.0",
+                "illuminate/macroable": "^11.0",
+                "illuminate/support": "^11.0",
+                "php": "^8.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "10.x-dev"
+                    "dev-master": "11.x-dev"
                 }
             },
             "autoload": {
@@ -2071,7 +2073,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-03-12T16:33:42+00:00"
+            "time": "2024-04-24T19:52:48+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -2196,31 +2198,36 @@
         },
         {
             "name": "laravel/slack-notification-channel",
-            "version": "v2.5.0",
+            "version": "3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/slack-notification-channel.git",
-                "reference": "e0d4be5e01d443a69fa89f0a4cac6bd2eda2be8f"
+                "reference": "b783be6d9856020f27dc76468ecd092d2a99e7a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/slack-notification-channel/zipball/e0d4be5e01d443a69fa89f0a4cac6bd2eda2be8f",
-                "reference": "e0d4be5e01d443a69fa89f0a4cac6bd2eda2be8f",
+                "url": "https://api.github.com/repos/laravel/slack-notification-channel/zipball/b783be6d9856020f27dc76468ecd092d2a99e7a4",
+                "reference": "b783be6d9856020f27dc76468ecd092d2a99e7a4",
                 "shasum": ""
             },
             "require": {
-                "guzzlehttp/guzzle": "^6.0|^7.0",
-                "illuminate/notifications": "~5.8.0|^6.0|^7.0|^8.0|^9.0|^10.0",
-                "php": "^7.1.3|^8.0"
+                "guzzlehttp/guzzle": "^7.0",
+                "illuminate/http": "^9.0|^10.0|^11.0",
+                "illuminate/notifications": "^9.0|^10.0|^11.0",
+                "illuminate/support": "^9.0|^10.0|^11.0",
+                "php": "^8.0"
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
-                "phpunit/phpunit": "^7.0|^8.0|^9.0"
+                "orchestra/testbench": "^7.0|^8.0|^9.0",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^9.0|^10.4"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "3.x-dev"
                 },
                 "laravel": {
                     "providers": [
@@ -2251,9 +2258,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/slack-notification-channel/issues",
-                "source": "https://github.com/laravel/slack-notification-channel/tree/v2.5.0"
+                "source": "https://github.com/laravel/slack-notification-channel/tree/3.x"
             },
-            "time": "2023-01-12T16:21:26+00:00"
+            "time": "2024-01-26T15:43:59+00:00"
         },
         {
             "name": "league/commonmark",
@@ -2450,24 +2457,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/litermi/error-notification.git",
-                "reference": "ec401ca8cd8ffb216f5c1ec9b293628a6573f0fd"
+                "reference": "a8e65c522def05179cea6a39258c8d4079c179d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/litermi/error-notification/zipball/ec401ca8cd8ffb216f5c1ec9b293628a6573f0fd",
-                "reference": "ec401ca8cd8ffb216f5c1ec9b293628a6573f0fd",
+                "url": "https://api.github.com/repos/litermi/error-notification/zipball/a8e65c522def05179cea6a39258c8d4079c179d3",
+                "reference": "a8e65c522def05179cea6a39258c8d4079c179d3",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.3.1|^7.0.1",
-                "illuminate/bus": "^7.20|^8.19|^9.0|^10.0",
-                "illuminate/config": "^7.20|^8.19|^9.0|^10.0",
-                "illuminate/contracts": "^7.20|^8.19|^9.0|^10.0",
-                "illuminate/database": "^7.20|^8.19|^9.0|^10.0",
-                "illuminate/http": "^7.20|^8.19|^9.0|^10.0",
-                "illuminate/notifications": "^7.20|^8.19|^9.0|^10.0",
-                "illuminate/support": "^7.20|^8.19|^9.0|^10.0",
-                "laravel/slack-notification-channel": "^2.3",
+                "illuminate/bus": "^7.20|^8.19|^9.0|^10.0|^11.0",
+                "illuminate/config": "^7.20|^8.19|^9.0|^10.0|^11.0",
+                "illuminate/contracts": "^7.20|^8.19|^9.0|^10.0|^11.0",
+                "illuminate/database": "^7.20|^8.19|^9.0|^10.0|^11.0",
+                "illuminate/http": "^7.20|^8.19|^9.0|^10.0|^11.0",
+                "illuminate/notifications": "^7.20|^8.19|^9.0|^10.0|^11.0",
+                "illuminate/support": "^7.20|^8.19|^9.0|^10.0|^11.0",
+                "laravel/slack-notification-channel": "^2.3|^3.2",
                 "litermi/logs": "^1.0",
                 "php": "^8.0"
             },
@@ -2505,30 +2512,30 @@
                 "log"
             ],
             "support": {
-                "source": "https://github.com/litermi/error-notification/tree/1.0.23"
+                "source": "https://github.com/litermi/error-notification/tree/1.0.25"
             },
-            "time": "2024-05-06T14:23:55+00:00"
+            "time": "2024-05-08T18:23:12+00:00"
         },
         {
             "name": "litermi/logs",
-            "version": "1.0.29",
+            "version": "1.0.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/litermi/log.git",
-                "reference": "c3533f0d636174d819903f06ae600206534373d6"
+                "reference": "63a7519f9a9467a6b14fe0379a33f89cbc5bafd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/litermi/log/zipball/c3533f0d636174d819903f06ae600206534373d6",
-                "reference": "c3533f0d636174d819903f06ae600206534373d6",
+                "url": "https://api.github.com/repos/litermi/log/zipball/63a7519f9a9467a6b14fe0379a33f89cbc5bafd5",
+                "reference": "63a7519f9a9467a6b14fe0379a33f89cbc5bafd5",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^7.2",
-                "illuminate/config": "^7.20|^8.19|^9.0|^10.0",
-                "illuminate/contracts": "^7.20|^8.19|^9.0|^10.0",
-                "illuminate/database": "^7.20|^8.19|^9.0|^10.0",
-                "illuminate/http": "^7.20|^8.19|^9.0|^10.0",
+                "illuminate/config": "^7.20|^8.19|^9.0|^10.0|^11.0",
+                "illuminate/contracts": "^7.20|^8.19|^9.0|^10.0|^11.0",
+                "illuminate/database": "^7.20|^8.19|^9.0|^10.0|^11.0",
+                "illuminate/http": "^7.20|^8.19|^9.0|^10.0|^11.0",
                 "php": "^7.4|^8.0"
             },
             "type": "library",
@@ -2567,49 +2574,49 @@
                 "log"
             ],
             "support": {
-                "source": "https://github.com/litermi/log/tree/1.0.29"
+                "source": "https://github.com/litermi/log/tree/1.0.30"
             },
-            "time": "2024-05-06T14:12:12+00:00"
+            "time": "2024-05-08T18:31:53+00:00"
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.x-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "57fbbf88ce332f6da4e5aa1ea7524ef1caebb9e4"
+                "reference": "8ff64b92c1b1ec84fcde9f8bb9ff2ca34cb8a77a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/57fbbf88ce332f6da4e5aa1ea7524ef1caebb9e4",
-                "reference": "57fbbf88ce332f6da4e5aa1ea7524ef1caebb9e4",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8ff64b92c1b1ec84fcde9f8bb9ff2ca34cb8a77a",
+                "reference": "8ff64b92c1b1ec84fcde9f8bb9ff2ca34cb8a77a",
                 "shasum": ""
             },
             "require": {
                 "carbonphp/carbon-doctrine-types": "*",
                 "ext-json": "*",
-                "php": "^7.1.8 || ^8.0",
+                "php": "^8.1",
                 "psr/clock": "^1.0",
+                "symfony/clock": "^6.3 || ^7.0",
                 "symfony/polyfill-mbstring": "^1.0",
-                "symfony/polyfill-php80": "^1.16",
-                "symfony/translation": "^3.4 || ^4.0 || ^5.0 || ^6.0"
+                "symfony/translation": "^4.4.18 || ^5.2.1|| ^6.0 || ^7.0"
             },
             "provide": {
                 "psr/clock-implementation": "1.0"
             },
             "require-dev": {
-                "doctrine/dbal": "^2.0 || ^3.1.4 || ^4.0",
-                "doctrine/orm": "^2.7 || ^3.0",
-                "friendsofphp/php-cs-fixer": "^3.0",
-                "kylekatarnls/multi-tester": "^2.0",
-                "ondrejmirtes/better-reflection": "*",
-                "phpmd/phpmd": "^2.9",
-                "phpstan/extension-installer": "^1.0",
-                "phpstan/phpstan": "^0.12.99 || ^1.7.14",
-                "phpunit/php-file-iterator": "^2.0.5 || ^3.0.6",
-                "phpunit/phpunit": "^7.5.20 || ^8.5.26 || ^9.5.20",
-                "squizlabs/php_codesniffer": "^3.4"
+                "doctrine/dbal": "^3.6.3 || ^4.0",
+                "doctrine/orm": "^2.15.2 || ^3.0",
+                "friendsofphp/php-cs-fixer": "^3.52.1",
+                "kylekatarnls/multi-tester": "^2.5.3",
+                "ondrejmirtes/better-reflection": "^6.25.0.4",
+                "phpmd/phpmd": "^2.15.0",
+                "phpstan/extension-installer": "^1.3.1",
+                "phpstan/phpstan": "^1.10.65",
+                "phpunit/phpunit": "^10.5.15",
+                "squizlabs/php_codesniffer": "^3.9.0"
             },
+            "default-branch": true,
             "bin": [
                 "bin/carbon"
             ],
@@ -2676,7 +2683,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-05T13:50:32+00:00"
+            "time": "2024-05-01T06:54:22+00:00"
         },
         {
             "name": "nette/schema",
@@ -2829,33 +2836,32 @@
         },
         {
             "name": "nunomaduro/termwind",
-            "version": "1.x-dev",
+            "version": "2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/termwind.git",
-                "reference": "642f96d31019f59573d5c0b92206042cac5a0514"
+                "reference": "9c030e68f200e039fb91182f407af60727e579fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/642f96d31019f59573d5c0b92206042cac5a0514",
-                "reference": "642f96d31019f59573d5c0b92206042cac5a0514",
+                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/9c030e68f200e039fb91182f407af60727e579fa",
+                "reference": "9c030e68f200e039fb91182f407af60727e579fa",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "php": "^8.0",
-                "symfony/console": "^5.3.0|^6.0.0"
+                "php": "^8.2",
+                "symfony/console": "^7.0.4"
             },
             "require-dev": {
-                "ergebnis/phpstan-rules": "^1.0.",
-                "illuminate/console": "^8.0|^9.0|^10.0",
-                "illuminate/support": "^8.0|^9.0|^10.0",
-                "laravel/pint": "^1.0.0",
-                "pestphp/pest": "^1.21.0",
-                "pestphp/pest-plugin-mock": "^1.0",
-                "phpstan/phpstan": "^1.4.6",
-                "phpstan/phpstan-strict-rules": "^1.1.0",
-                "symfony/var-dumper": "^5.2.7|^6.0.0",
+                "ergebnis/phpstan-rules": "^2.2.0",
+                "illuminate/console": "^11.1.1",
+                "laravel/pint": "^1.15.0",
+                "mockery/mockery": "^1.6.11",
+                "pestphp/pest": "^2.34.6",
+                "phpstan/phpstan": "^1.10.66",
+                "phpstan/phpstan-strict-rules": "^1.5.2",
+                "symfony/var-dumper": "^7.0.4",
                 "thecodingmachine/phpstan-strict-rules": "^1.0.0"
             },
             "default-branch": true,
@@ -2865,6 +2871,9 @@
                     "providers": [
                         "Termwind\\Laravel\\TermwindServiceProvider"
                     ]
+                },
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
                 }
             },
             "autoload": {
@@ -2896,7 +2905,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nunomaduro/termwind/issues",
-                "source": "https://github.com/nunomaduro/termwind/tree/1.x"
+                "source": "https://github.com/nunomaduro/termwind/tree/2.x"
             },
             "funding": [
                 {
@@ -2912,7 +2921,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-10T08:56:15+00:00"
+            "time": "2024-04-12T13:29:31+00:00"
         },
         {
             "name": "psr/clock",
@@ -3474,12 +3483,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "e9b3aef11d4f06c4fc11a0aa157b8d89002ce11f"
+                "reference": "1f85b37c66ab468f91831a4baaf529b97be11530"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/e9b3aef11d4f06c4fc11a0aa157b8d89002ce11f",
-                "reference": "e9b3aef11d4f06c4fc11a0aa157b8d89002ce11f",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/1f85b37c66ab468f91831a4baaf529b97be11530",
+                "reference": "1f85b37c66ab468f91831a4baaf529b97be11530",
                 "shasum": ""
             },
             "require": {
@@ -3559,51 +3568,124 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-29T21:45:12+00:00"
+            "time": "2024-05-06T21:16:32+00:00"
         },
         {
-            "name": "symfony/console",
-            "version": "6.4.x-dev",
+            "name": "symfony/clock",
+            "version": "7.1.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/console.git",
-                "reference": "a170e64ae10d00ba89e2acbb590dc2e54da8ad8f"
+                "url": "https://github.com/symfony/clock.git",
+                "reference": "fe47b7cf6a68c045c37928aa89a39d5eb9a2b37c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/a170e64ae10d00ba89e2acbb590dc2e54da8ad8f",
-                "reference": "a170e64ae10d00ba89e2acbb590dc2e54da8ad8f",
+                "url": "https://api.github.com/repos/symfony/clock/zipball/fe47b7cf6a68c045c37928aa89a39d5eb9a2b37c",
+                "reference": "fe47b7cf6a68c045c37928aa89a39d5eb9a2b37c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.1",
-                "symfony/deprecation-contracts": "^2.5|^3",
+                "php": ">=8.2",
+                "psr/clock": "^1.0",
+                "symfony/polyfill-php83": "^1.28"
+            },
+            "provide": {
+                "psr/clock-implementation": "1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "Resources/now.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Component\\Clock\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Decouples applications from the system clock",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "clock",
+                "psr20",
+                "time"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/clock/tree/7.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-04-18T09:32:20+00:00"
+        },
+        {
+            "name": "symfony/console",
+            "version": "7.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "965f054b640b28a4cfaa77cc69b53506393e3a4a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/965f054b640b28a4cfaa77cc69b53506393e3a4a",
+                "reference": "965f054b640b28a4cfaa77cc69b53506393e3a4a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2",
                 "symfony/polyfill-mbstring": "~1.0",
                 "symfony/service-contracts": "^2.5|^3",
-                "symfony/string": "^5.4|^6.0|^7.0"
+                "symfony/string": "^6.4|^7.0"
             },
             "conflict": {
-                "symfony/dependency-injection": "<5.4",
-                "symfony/dotenv": "<5.4",
-                "symfony/event-dispatcher": "<5.4",
-                "symfony/lock": "<5.4",
-                "symfony/process": "<5.4"
+                "symfony/dependency-injection": "<6.4",
+                "symfony/dotenv": "<6.4",
+                "symfony/event-dispatcher": "<6.4",
+                "symfony/lock": "<6.4",
+                "symfony/process": "<6.4"
             },
             "provide": {
                 "psr/log-implementation": "1.0|2.0|3.0"
             },
             "require-dev": {
                 "psr/log": "^1|^2|^3",
-                "symfony/config": "^5.4|^6.0|^7.0",
-                "symfony/dependency-injection": "^5.4|^6.0|^7.0",
-                "symfony/event-dispatcher": "^5.4|^6.0|^7.0",
+                "symfony/config": "^6.4|^7.0",
+                "symfony/dependency-injection": "^6.4|^7.0",
+                "symfony/event-dispatcher": "^6.4|^7.0",
                 "symfony/http-foundation": "^6.4|^7.0",
                 "symfony/http-kernel": "^6.4|^7.0",
-                "symfony/lock": "^5.4|^6.0|^7.0",
-                "symfony/messenger": "^5.4|^6.0|^7.0",
-                "symfony/process": "^5.4|^6.0|^7.0",
-                "symfony/stopwatch": "^5.4|^6.0|^7.0",
-                "symfony/var-dumper": "^5.4|^6.0|^7.0"
+                "symfony/lock": "^6.4|^7.0",
+                "symfony/messenger": "^6.4|^7.0",
+                "symfony/process": "^6.4|^7.0",
+                "symfony/stopwatch": "^6.4|^7.0",
+                "symfony/var-dumper": "^6.4|^7.0"
             },
             "type": "library",
             "autoload": {
@@ -3637,7 +3719,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/6.4"
+                "source": "https://github.com/symfony/console/tree/7.1"
             },
             "funding": [
                 {
@@ -3653,7 +3735,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-18T09:22:46+00:00"
+            "time": "2024-05-02T11:32:55+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -4022,23 +4104,23 @@
         },
         {
             "name": "symfony/finder",
-            "version": "6.4.x-dev",
+            "version": "7.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "511c48990be17358c23bf45c5d71ab85d40fb764"
+                "reference": "fb6c2d65c3dbf7ad83201a4168d4510c8dddaac7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/511c48990be17358c23bf45c5d71ab85d40fb764",
-                "reference": "511c48990be17358c23bf45c5d71ab85d40fb764",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/fb6c2d65c3dbf7ad83201a4168d4510c8dddaac7",
+                "reference": "fb6c2d65c3dbf7ad83201a4168d4510c8dddaac7",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.1"
+                "php": ">=8.2"
             },
             "require-dev": {
-                "symfony/filesystem": "^6.0|^7.0"
+                "symfony/filesystem": "^6.4|^7.0"
             },
             "type": "library",
             "autoload": {
@@ -4066,7 +4148,7 @@
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/finder/tree/6.4"
+                "source": "https://github.com/symfony/finder/tree/7.1"
             },
             "funding": [
                 {
@@ -4082,40 +4164,40 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-23T10:36:43+00:00"
+            "time": "2024-04-28T18:29:00+00:00"
         },
         {
             "name": "symfony/http-foundation",
-            "version": "6.4.x-dev",
+            "version": "7.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "b4db6b833035477cb70e18d0ae33cb7c2b521759"
+                "reference": "b71e324622be27c0dcf5ed64db85fe7a24574eb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/b4db6b833035477cb70e18d0ae33cb7c2b521759",
-                "reference": "b4db6b833035477cb70e18d0ae33cb7c2b521759",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/b71e324622be27c0dcf5ed64db85fe7a24574eb8",
+                "reference": "b71e324622be27c0dcf5ed64db85fe7a24574eb8",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.1",
-                "symfony/deprecation-contracts": "^2.5|^3",
+                "php": ">=8.2",
                 "symfony/polyfill-mbstring": "~1.1",
                 "symfony/polyfill-php83": "^1.27"
             },
             "conflict": {
-                "symfony/cache": "<6.3"
+                "doctrine/dbal": "<3.6",
+                "symfony/cache": "<6.4"
             },
             "require-dev": {
-                "doctrine/dbal": "^2.13.1|^3|^4",
+                "doctrine/dbal": "^3.6|^4",
                 "predis/predis": "^1.1|^2.0",
-                "symfony/cache": "^6.3|^7.0",
-                "symfony/dependency-injection": "^5.4|^6.0|^7.0",
-                "symfony/expression-language": "^5.4|^6.0|^7.0",
-                "symfony/http-kernel": "^5.4.12|^6.0.12|^6.1.4|^7.0",
-                "symfony/mime": "^5.4|^6.0|^7.0",
-                "symfony/rate-limiter": "^5.4|^6.0|^7.0"
+                "symfony/cache": "^6.4|^7.0",
+                "symfony/dependency-injection": "^6.4|^7.0",
+                "symfony/expression-language": "^6.4|^7.0",
+                "symfony/http-kernel": "^6.4|^7.0",
+                "symfony/mime": "^6.4|^7.0",
+                "symfony/rate-limiter": "^6.4|^7.0"
             },
             "type": "library",
             "autoload": {
@@ -4143,7 +4225,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-foundation/tree/6.4"
+                "source": "https://github.com/symfony/http-foundation/tree/7.1"
             },
             "funding": [
                 {
@@ -4159,77 +4241,77 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-18T09:22:46+00:00"
+            "time": "2024-04-18T09:32:20+00:00"
         },
         {
             "name": "symfony/http-kernel",
-            "version": "6.4.x-dev",
+            "version": "7.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "a2cf112373f6ef7e41980ad402cd1bc4279cad6c"
+                "reference": "866e35b528ff83655f0c412916f4e71c581da05f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/a2cf112373f6ef7e41980ad402cd1bc4279cad6c",
-                "reference": "a2cf112373f6ef7e41980ad402cd1bc4279cad6c",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/866e35b528ff83655f0c412916f4e71c581da05f",
+                "reference": "866e35b528ff83655f0c412916f4e71c581da05f",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.1",
+                "php": ">=8.2",
                 "psr/log": "^1|^2|^3",
                 "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/error-handler": "^6.4|^7.0",
-                "symfony/event-dispatcher": "^5.4|^6.0|^7.0",
+                "symfony/event-dispatcher": "^6.4|^7.0",
                 "symfony/http-foundation": "^6.4|^7.0",
                 "symfony/polyfill-ctype": "^1.8"
             },
             "conflict": {
-                "symfony/browser-kit": "<5.4",
-                "symfony/cache": "<5.4",
-                "symfony/config": "<6.1",
-                "symfony/console": "<5.4",
+                "symfony/browser-kit": "<6.4",
+                "symfony/cache": "<6.4",
+                "symfony/config": "<6.4",
+                "symfony/console": "<6.4",
                 "symfony/dependency-injection": "<6.4",
-                "symfony/doctrine-bridge": "<5.4",
-                "symfony/form": "<5.4",
-                "symfony/http-client": "<5.4",
+                "symfony/doctrine-bridge": "<6.4",
+                "symfony/form": "<6.4",
+                "symfony/http-client": "<6.4",
                 "symfony/http-client-contracts": "<2.5",
-                "symfony/mailer": "<5.4",
-                "symfony/messenger": "<5.4",
-                "symfony/translation": "<5.4",
+                "symfony/mailer": "<6.4",
+                "symfony/messenger": "<6.4",
+                "symfony/translation": "<6.4",
                 "symfony/translation-contracts": "<2.5",
-                "symfony/twig-bridge": "<5.4",
+                "symfony/twig-bridge": "<6.4",
                 "symfony/validator": "<6.4",
-                "symfony/var-dumper": "<6.3",
-                "twig/twig": "<2.13"
+                "symfony/var-dumper": "<6.4",
+                "twig/twig": "<3.0.4"
             },
             "provide": {
                 "psr/log-implementation": "1.0|2.0|3.0"
             },
             "require-dev": {
                 "psr/cache": "^1.0|^2.0|^3.0",
-                "symfony/browser-kit": "^5.4|^6.0|^7.0",
-                "symfony/clock": "^6.2|^7.0",
-                "symfony/config": "^6.1|^7.0",
-                "symfony/console": "^5.4|^6.0|^7.0",
-                "symfony/css-selector": "^5.4|^6.0|^7.0",
+                "symfony/browser-kit": "^6.4|^7.0",
+                "symfony/clock": "^6.4|^7.0",
+                "symfony/config": "^6.4|^7.0",
+                "symfony/console": "^6.4|^7.0",
+                "symfony/css-selector": "^6.4|^7.0",
                 "symfony/dependency-injection": "^6.4|^7.0",
-                "symfony/dom-crawler": "^5.4|^6.0|^7.0",
-                "symfony/expression-language": "^5.4|^6.0|^7.0",
-                "symfony/finder": "^5.4|^6.0|^7.0",
+                "symfony/dom-crawler": "^6.4|^7.0",
+                "symfony/expression-language": "^6.4|^7.0",
+                "symfony/finder": "^6.4|^7.0",
                 "symfony/http-client-contracts": "^2.5|^3",
-                "symfony/process": "^5.4|^6.0|^7.0",
-                "symfony/property-access": "^5.4.5|^6.0.5|^7.0",
-                "symfony/routing": "^5.4|^6.0|^7.0",
-                "symfony/serializer": "^6.4.4|^7.0.4",
-                "symfony/stopwatch": "^5.4|^6.0|^7.0",
-                "symfony/translation": "^5.4|^6.0|^7.0",
+                "symfony/process": "^6.4|^7.0",
+                "symfony/property-access": "^7.1",
+                "symfony/routing": "^6.4|^7.0",
+                "symfony/serializer": "^7.1",
+                "symfony/stopwatch": "^6.4|^7.0",
+                "symfony/translation": "^6.4|^7.0",
                 "symfony/translation-contracts": "^2.5|^3",
-                "symfony/uid": "^5.4|^6.0|^7.0",
+                "symfony/uid": "^6.4|^7.0",
                 "symfony/validator": "^6.4|^7.0",
-                "symfony/var-dumper": "^5.4|^6.4|^7.0",
-                "symfony/var-exporter": "^6.2|^7.0",
-                "twig/twig": "^2.13|^3.0.4"
+                "symfony/var-dumper": "^6.4|^7.0",
+                "symfony/var-exporter": "^6.4|^7.0",
+                "twig/twig": "^3.0.4"
             },
             "type": "library",
             "autoload": {
@@ -4257,7 +4339,7 @@
             "description": "Provides a structured process for converting a Request into a Response",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-kernel/tree/6.4"
+                "source": "https://github.com/symfony/http-kernel/tree/7.1"
             },
             "funding": [
                 {
@@ -4273,43 +4355,43 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-05-02T08:32:52+00:00"
+            "time": "2024-05-02T13:07:59+00:00"
         },
         {
             "name": "symfony/mailer",
-            "version": "6.4.x-dev",
+            "version": "7.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mailer.git",
-                "reference": "e1d42955523750da6c16603283b0a1acfad68f8a"
+                "reference": "d891fb20d441bc82237e50b0042afa8859b2666a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mailer/zipball/e1d42955523750da6c16603283b0a1acfad68f8a",
-                "reference": "e1d42955523750da6c16603283b0a1acfad68f8a",
+                "url": "https://api.github.com/repos/symfony/mailer/zipball/d891fb20d441bc82237e50b0042afa8859b2666a",
+                "reference": "d891fb20d441bc82237e50b0042afa8859b2666a",
                 "shasum": ""
             },
             "require": {
                 "egulias/email-validator": "^2.1.10|^3|^4",
-                "php": ">=8.1",
+                "php": ">=8.2",
                 "psr/event-dispatcher": "^1",
                 "psr/log": "^1|^2|^3",
-                "symfony/event-dispatcher": "^5.4|^6.0|^7.0",
-                "symfony/mime": "^6.2|^7.0",
+                "symfony/event-dispatcher": "^6.4|^7.0",
+                "symfony/mime": "^6.4|^7.0",
                 "symfony/service-contracts": "^2.5|^3"
             },
             "conflict": {
                 "symfony/http-client-contracts": "<2.5",
-                "symfony/http-kernel": "<5.4",
-                "symfony/messenger": "<6.2",
-                "symfony/mime": "<6.2",
-                "symfony/twig-bridge": "<6.2.1"
+                "symfony/http-kernel": "<6.4",
+                "symfony/messenger": "<6.4",
+                "symfony/mime": "<6.4",
+                "symfony/twig-bridge": "<6.4"
             },
             "require-dev": {
-                "symfony/console": "^5.4|^6.0|^7.0",
-                "symfony/http-client": "^5.4|^6.0|^7.0",
-                "symfony/messenger": "^6.2|^7.0",
-                "symfony/twig-bridge": "^6.2|^7.0"
+                "symfony/console": "^6.4|^7.0",
+                "symfony/http-client": "^6.4|^7.0",
+                "symfony/messenger": "^6.4|^7.0",
+                "symfony/twig-bridge": "^6.4|^7.0"
             },
             "type": "library",
             "autoload": {
@@ -4337,7 +4419,7 @@
             "description": "Helps sending emails",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/mailer/tree/6.4"
+                "source": "https://github.com/symfony/mailer/tree/7.1"
             },
             "funding": [
                 {
@@ -4353,25 +4435,24 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-05-02T08:32:52+00:00"
+            "time": "2024-05-02T08:41:59+00:00"
         },
         {
             "name": "symfony/mime",
-            "version": "6.4.x-dev",
+            "version": "7.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "decadcf3865918ecfcbfa90968553994ce935a5e"
+                "reference": "b79638146f25c878d08c014a290ac0d9d5085e00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/decadcf3865918ecfcbfa90968553994ce935a5e",
-                "reference": "decadcf3865918ecfcbfa90968553994ce935a5e",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/b79638146f25c878d08c014a290ac0d9d5085e00",
+                "reference": "b79638146f25c878d08c014a290ac0d9d5085e00",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.1",
-                "symfony/deprecation-contracts": "^2.5|^3",
+                "php": ">=8.2",
                 "symfony/polyfill-intl-idn": "^1.10",
                 "symfony/polyfill-mbstring": "^1.0"
             },
@@ -4379,18 +4460,18 @@
                 "egulias/email-validator": "~3.0.0",
                 "phpdocumentor/reflection-docblock": "<3.2.2",
                 "phpdocumentor/type-resolver": "<1.4.0",
-                "symfony/mailer": "<5.4",
-                "symfony/serializer": "<6.3.2"
+                "symfony/mailer": "<6.4",
+                "symfony/serializer": "<6.4"
             },
             "require-dev": {
                 "egulias/email-validator": "^2.1.10|^3.1|^4",
                 "league/html-to-markdown": "^5.0",
                 "phpdocumentor/reflection-docblock": "^3.0|^4.0|^5.0",
-                "symfony/dependency-injection": "^5.4|^6.0|^7.0",
-                "symfony/process": "^5.4|^6.4|^7.0",
-                "symfony/property-access": "^5.4|^6.0|^7.0",
-                "symfony/property-info": "^5.4|^6.0|^7.0",
-                "symfony/serializer": "^6.3.2|^7.0"
+                "symfony/dependency-injection": "^6.4|^7.0",
+                "symfony/process": "^6.4|^7.0",
+                "symfony/property-access": "^6.4|^7.0",
+                "symfony/property-info": "^6.4|^7.0",
+                "symfony/serializer": "^6.4|^7.0"
             },
             "type": "library",
             "autoload": {
@@ -4422,7 +4503,7 @@
                 "mime-type"
             ],
             "support": {
-                "source": "https://github.com/symfony/mime/tree/6.4"
+                "source": "https://github.com/symfony/mime/tree/7.1"
             },
             "funding": [
                 {
@@ -4438,7 +4519,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-18T09:22:46+00:00"
+            "time": "2024-04-18T09:32:20+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -5082,20 +5163,20 @@
         },
         {
             "name": "symfony/process",
-            "version": "6.4.x-dev",
+            "version": "7.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "cdb1c81c145fd5aa9b0038bab694035020943381"
+                "reference": "2f00ea0dec48a0674c4bfc3cf5244447282129a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/cdb1c81c145fd5aa9b0038bab694035020943381",
-                "reference": "cdb1c81c145fd5aa9b0038bab694035020943381",
+                "url": "https://api.github.com/repos/symfony/process/zipball/2f00ea0dec48a0674c4bfc3cf5244447282129a5",
+                "reference": "2f00ea0dec48a0674c4bfc3cf5244447282129a5",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.1"
+                "php": ">=8.2"
             },
             "type": "library",
             "autoload": {
@@ -5123,7 +5204,7 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/process/tree/6.4"
+                "source": "https://github.com/symfony/process/tree/7.1"
             },
             "funding": [
                 {
@@ -5139,7 +5220,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-18T09:22:46+00:00"
+            "time": "2024-04-18T09:32:20+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -5314,33 +5395,32 @@
         },
         {
             "name": "symfony/translation",
-            "version": "6.4.x-dev",
+            "version": "7.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "7495687c58bfd88b7883823747b0656d90679123"
+                "reference": "583d18e461eada8270ca44b7d99f07abf1ab048e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/7495687c58bfd88b7883823747b0656d90679123",
-                "reference": "7495687c58bfd88b7883823747b0656d90679123",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/583d18e461eada8270ca44b7d99f07abf1ab048e",
+                "reference": "583d18e461eada8270ca44b7d99f07abf1ab048e",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.1",
-                "symfony/deprecation-contracts": "^2.5|^3",
+                "php": ">=8.2",
                 "symfony/polyfill-mbstring": "~1.0",
                 "symfony/translation-contracts": "^2.5|^3.0"
             },
             "conflict": {
-                "symfony/config": "<5.4",
-                "symfony/console": "<5.4",
-                "symfony/dependency-injection": "<5.4",
+                "symfony/config": "<6.4",
+                "symfony/console": "<6.4",
+                "symfony/dependency-injection": "<6.4",
                 "symfony/http-client-contracts": "<2.5",
-                "symfony/http-kernel": "<5.4",
+                "symfony/http-kernel": "<6.4",
                 "symfony/service-contracts": "<2.5",
-                "symfony/twig-bundle": "<5.4",
-                "symfony/yaml": "<5.4"
+                "symfony/twig-bundle": "<6.4",
+                "symfony/yaml": "<6.4"
             },
             "provide": {
                 "symfony/translation-implementation": "2.3|3.0"
@@ -5348,17 +5428,17 @@
             "require-dev": {
                 "nikic/php-parser": "^4.18|^5.0",
                 "psr/log": "^1|^2|^3",
-                "symfony/config": "^5.4|^6.0|^7.0",
-                "symfony/console": "^5.4|^6.0|^7.0",
-                "symfony/dependency-injection": "^5.4|^6.0|^7.0",
-                "symfony/finder": "^5.4|^6.0|^7.0",
+                "symfony/config": "^6.4|^7.0",
+                "symfony/console": "^6.4|^7.0",
+                "symfony/dependency-injection": "^6.4|^7.0",
+                "symfony/finder": "^6.4|^7.0",
                 "symfony/http-client-contracts": "^2.5|^3.0",
-                "symfony/http-kernel": "^5.4|^6.0|^7.0",
-                "symfony/intl": "^5.4|^6.0|^7.0",
+                "symfony/http-kernel": "^6.4|^7.0",
+                "symfony/intl": "^6.4|^7.0",
                 "symfony/polyfill-intl-icu": "^1.21",
-                "symfony/routing": "^5.4|^6.0|^7.0",
+                "symfony/routing": "^6.4|^7.0",
                 "symfony/service-contracts": "^2.5|^3",
-                "symfony/yaml": "^5.4|^6.0|^7.0"
+                "symfony/yaml": "^6.4|^7.0"
             },
             "type": "library",
             "autoload": {
@@ -5389,7 +5469,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/6.4"
+                "source": "https://github.com/symfony/translation/tree/7.1"
             },
             "funding": [
                 {
@@ -5405,7 +5485,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-18T09:22:46+00:00"
+            "time": "2024-05-02T11:50:05+00:00"
         },
         {
             "name": "symfony/translation-contracts",
