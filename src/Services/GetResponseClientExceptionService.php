@@ -51,7 +51,10 @@ class GetResponseClientExceptionService
                 $error->host = $host;
             }
             $errorExplain             = $exception->getMessage();
-            $errorExplain            .= property_exists($error, 'message') ? ' '.$error->message : '';
+            $errorMessageProperty   = property_exists($error, 'message') ? $error->message : '';
+            if(is_array($errorMessageProperty)){
+                $errorExplain .= " --- ".json_encode($errorMessageProperty);
+            }
             $data[ 'error_explain' ]  = $errorExplain;
             $data[ 'error_external' ] = $error;
             $data[ 'response_body' ]  = $responseBody;

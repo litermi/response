@@ -80,9 +80,6 @@ trait ResponseTrait
             $code    = Response::HTTP_NOT_FOUND;
         }
 
-        if ($code < Response::HTTP_CONTINUE || $code > Response::HTTP_NETWORK_AUTHENTICATION_REQUIRED) {
-            $code = Response::HTTP_SERVICE_UNAVAILABLE;
-        }
 
         $infoException = GetInfoFromExceptionService::execute($exception);
         SendLogUserRequestResponseService::execute($infoException);
@@ -97,6 +94,12 @@ trait ResponseTrait
         );
         $error = $this->reformatError($message);
         $showAllInfo = request()->header('support-show-extra-logs-11S019fgPmYs');
+
+
+        if ($code < Response::HTTP_CONTINUE || $code > Response::HTTP_NETWORK_AUTHENTICATION_REQUIRED) {
+            $code = Response::HTTP_SERVICE_UNAVAILABLE;
+        }
+
         if (env('APP_DEBUG') === true ||  empty($showAllInfo)===false) {
             return $this->errorResponseWithMessage($infoException, $message, $code, $error);
         }
